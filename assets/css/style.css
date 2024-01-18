@@ -1,0 +1,46 @@
+/* region common */
+:root{
+    --discord-primary: #1e90ff;
+    --discord-sencondary: #ffc0cb;
+    --discord-light: #ffffff;
+    --discord-gray: #d3d3d3;
+    --discord-background-header: #add8e6;
+    --discord-header: #daa520;
+    --discord-background-blue: #00008b;
+    --discord-corpe-pink-dark: #ee82ee;
+    --discord-corpe-green: #228b22;
+    --discord-footer-column-teal: #20b2aa;
+    --discord-footer-colum-pink: #f08080;
+    --discord-background-footer: #23272a;
+    --discord-footer-footer-item: #ffb6c1;
+    --discord-background-footer-footer: #7fffd4;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* end region common */
+
+/* region header */
+#site-header{
+    height: 80px;
+    background-color: var(--discord-background-header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.element{
+    background-color: #daa520;
+    border: 2px dotted black;
+    height: 40px;
+    padding: 10px 10px;
+    width: 240px;
+}
+.login{
+    text-align: right;
+}
+.link{
+    width: 720px;
+    text-align: center;
+}
