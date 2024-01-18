@@ -49,11 +49,41 @@
 
 
 /* region header */
+
 #site-header{
-    height: 80px;
     background-color: var(--discord-background-header);
-    margin: auto;
+    padding: 20px 0;
+    height: 80px;
+    width: 100%;
 }
+
+.flex-container-header{
+    margin:auto;
+    display: flex;
+    width: 1200px;
+    border: 1px dotted black;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .height-header{
     height: 80px;
 }
