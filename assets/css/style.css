@@ -23,7 +23,9 @@
 /* end region common */
 
 /* region utilies */
-
+.footer-color{
+    background-color: var(--discord-background-footer);
+}
 .corpe-main{
     height: 600px;
 }
@@ -108,3 +110,38 @@
     background-color: var(--discord-corpe-green);
 }
 /* end main final */
+
+/* region footer */
+
+.head-footer{
+    height: 630px ;
+    margin-bottom: 2px;
+    border: 2px dotted black;
+}
+.footer-small{
+    background-color: var(--discord-footer-column-teal);
+    width: 210px;
+    height: 580px;
+    border-color: white;
+}
+.footer-big{
+    background-color: var(--discord-footer-colum-pink);
+    width: 360px;
+    height: 580px;
+}
+#footer-end{
+    background-color: var(--discord-background-footer-footer);
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.element-footer{
+    height: 40px;
+    background-color: var(--discord-footer-footer-item);
+    padding: 10px;
+}
+.foter-end  {
+    justify-content: flex-end;
+}
+/* end region footer */
