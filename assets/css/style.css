@@ -24,8 +24,23 @@
 
 /* region utilies */
 
- #flex-container{
+.corpe-main{
+    height: 600px;
+}
+.first{
+    background-color: var(--discord-light);
+}
+.second{
+    background-color: var(--discord-gray);
+}
+.border{
+    border: 2px dotted black;
+}
 
+ .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }   
 
 /*  end region utilies */
@@ -35,13 +50,14 @@
 #site-header{
     height: 80px;
     background-color: var(--discord-background-header);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
+}
+.height-header{
+    height: 80px;
 }
 .element{
     background-color: #daa520;
-    border: 2px dotted black;
+   
     height: 40px;
     padding: 10px 10px;
     width: 240px;
@@ -50,6 +66,28 @@
     text-align: right;
 }
 .link{
-    flex-grow: 3;
+    width: 720px;
     text-align: center;
+}
+/* end region header */
+
+/* region main */
+.head-main{
+    background-color: var(--discord-background-blue);
+    height: 500px;
+}
+.item-central{
+    width: 900px;
+    height: 400px;
+    background-color: var(--discord-corpe-pink-dark);
+}
+.item-higher{
+    background-color: var(--discord-primary);
+    height: 500px;
+    width: 720px;
+}
+.item-smaller{
+    background-color: var(--discord-sencondary);
+    height: 500px;
+    width: 480px;
 }
