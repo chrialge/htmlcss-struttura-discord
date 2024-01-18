@@ -22,6 +22,15 @@
 }
 /* end region common */
 
+/* region utilies */
+
+ #flex-container{
+
+ }   
+
+/*  end region utilies */
+
+
 /* region header */
 #site-header{
     height: 80px;
@@ -41,6 +50,6 @@
     text-align: right;
 }
 .link{
-    width: 720px;
+    flex-grow: 3;
     text-align: center;
 }
