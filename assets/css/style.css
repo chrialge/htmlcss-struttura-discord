@@ -36,14 +36,14 @@
     background-color: var(--discord-gray);
 }
 .border{
-    border: 2px dotted black;
+    border: 2px dotted black; 
 }
 
- .flex-container{
+.flex-container{
     display: flex;
     justify-content: center;
     align-items: center;
- }   
+}    
 
 /*  end region utilies */
 
@@ -64,41 +64,17 @@
     border: 1px dotted black;
     height: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.height-header{
-    height: 80px;
-}
 .element{
+    flex-grow: 1;
     background-color: #daa520;
-   
     height: 40px;
     padding: 10px 10px;
-    width: 240px;
 }
 .login{
     text-align: right;
 }
 .link{
-    width: 720px;
+    flex-grow: 3;
     text-align: center;
 }
 /* end region header */
@@ -141,12 +117,14 @@
 }
 /* end main final */
 
+/* end region main */
+
 /* region footer */
 
+/* head footer */
 .head-footer{
     height: 630px ;
     margin-bottom: 2px;
-    border: 2px dotted black;
 }
 .footer-small{
     background-color: var(--discord-footer-column-teal);
@@ -159,19 +137,26 @@
     width: 360px;
     height: 580px;
 }
+/* end head footer */
+
+/*  final footer */
+.final-footer{
+    height: 110px;
+    padding-top: 30px;
+}
 #footer-end{
     background-color: var(--discord-background-footer-footer);
     width: 1200px;
     height: 80px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .element-footer{
     height: 40px;
     background-color: var(--discord-footer-footer-item);
     padding: 10px;
 }
-.foter-end  {
-    justify-content: flex-end;
-}
+/* end final footer */
+
 /* end region footer */
